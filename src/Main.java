@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
+/*
 
         User user1 = new User();
         User user2 = new User();
@@ -25,10 +26,24 @@ public class Main {
         BankAccount ba8 = new BankAccount();
         BankAccount ba9 = new BankAccount();
         BankAccount ba10 = new BankAccount();
+*/
 
-        user1.account = ba1;
-        ba1.user = user1;
-        ba1.deposit(10000);
+/*        Account ac1 = new Account();
+        ac1.accountNumber = 1;
+
+        System.out.println("1번 계좌의 넘버는 : "+ac1.accountNumber);
+        ac1.deposit(100000);
+
+        ac1.withdraw(60000);
+
+        Account ac2 = new Account();
+        ac2.accountNumber = 2;
+
+        System.out.println("2번 계좌의 넘버는 : "+ac2.accountNumber);
+        ac2.balance = 20000;*/
+
+
+
 
     }
 }
