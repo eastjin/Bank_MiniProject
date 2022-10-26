@@ -4,7 +4,7 @@ import java.util.Map;
 public class BankService {
 
 
-    HashMap<Long, BankAccount> map = new HashMap<>();
+    Map<Long, BankAccount> map = new HashMap<Long, BankAccount>();
 
 
 
